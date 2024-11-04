@@ -1,0 +1,25 @@
+id: particle/blueprint-tracker-1wire
+category: solution
+icon: particle.png
+gitrepo: https://github.com/particle-iot/blueprint-tracker-1wire
+name: blueprint-tracker-1wire
+shortDescription: Adding 1-Wire sensors to Tracker One
+version: 1.0.0
+models: []
+language:
+  - C++
+cloudServices: []
+integrations:
+  - qcom-aware
+hardwareDependencies:
+  - name: Tracker One
+    link: https://www.particle.io/tracker-one/
+  - name: Particle T-SoM Module
+    link: https://www.particle.io/tracker-som/
+description: |
+  - Expanding the Tracker One using the M8 connector
+  - Interfacing with 5V I2C devices
+  - Using the DS2482-100 I2C to 1-Wire interface to efficiently add 1-Wire devices
+  - Using the DS18B20 temperature sensors
+  - Adding custom data to your location publishes
+
