@@ -1,5 +1,5 @@
 id: particle/blueprint-tracker-1wire
-category: solution
+category: tutorial
 icon: particle.png
 gitrepo: https://github.com/particle-iot/blueprint-tracker-1wire
 name: blueprint-tracker-1wire
