@@ -1,21 +1,34 @@
 id: particle/blueprint-tracker-1wire
-category: tutorial
-icon: particle.png
+slug: particle-blueprint-tracker-1wire
+type: tutorial
+category: "Tracker projects"
+expertiseLevel: ""
+tags: ["tracker"]
+icon: assets/particle-logo.svg
 gitrepo: https://github.com/particle-iot/blueprint-tracker-1wire
 name: "Tracker 1-Wire integration"
 shortDescription: Adding 1-Wire sensors to Tracker One for custom data collection
 version: 1.0.0
 models: []
-language:
-  - C++
+language: ["C++"]
 cloudServices: []
 integrations: []
-hardwareDependencies:
+supportedDevices:
   - name: Tracker One
     link: https://www.particle.io/tracker-one/
-    tags: [ "Tracker One" ]
-  - name: Particle T-SoM Module
+  - name: T-SoM
     link: https://www.particle.io/tracker-som/
-    tags: [ "T-SoM" ]
+hardwareDependencies:
+  - name: Supported device
+introduction: |
+  This application note illustrates several hardware and software techniques.
+  * Expanding the Tracker One using the M8 connector
+  *  Interfacing with 5V I2C devices
+  * Using the DS2482-100 I2C to 1-Wire interface to efficiently add 1-Wire devices
+  * Using the DS18B20 temperature sensors
+  * Adding custom data to your location publishe
+
 description: |
   This project demonstrates how to extend the functionality of Tracker One by adding 1-Wire sensors for temperature monitoring. It includes methods for using the M8 connector, interfacing with 5V I2C devices, and leveraging the DS2482-100 I2C to 1-Wire interface. With this setup, multiple DS18B20 temperature sensors can be connected and used to add custom data to location publishes, ideal for applications requiring extended environmental monitoring over long distances.
+
+additionalResources:
