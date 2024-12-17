@@ -1,9 +1,8 @@
-id: particle/blueprint-tracker-1wire
 slug: particle-blueprint-tracker-1wire
 type: tutorial
 category: "Tracker projects"
-expertiseLevel: ""
-tags: ["tracker"]
+expertiseLevel: "beginner"
+tags: ["tracker", "sensors", "industrial"]
 icon: assets/particle-logo.svg
 gitrepo: https://github.com/particle-iot/blueprint-tracker-1wire
 name: "Tracker 1-Wire integration"
