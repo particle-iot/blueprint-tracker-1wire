@@ -1,9 +1,9 @@
 slug: particle-blueprint-tracker-1wire
-type: tutorial
+type: Tutorial
 category: "Tracker projects"
-expertiseLevel: "beginner"
-tags: ["tracker", "sensors", "industrial"]
-icon: assets/particle-logo.svg
+expertiseLevel: "Beginner"
+tags: ["Tracker", "Sensors", "Industrial"]
+icon: assets/tracker-1wire-integration.svg
 gitrepo: https://github.com/particle-iot/blueprint-tracker-1wire
 name: "Tracker 1-Wire integration"
 shortDescription: Adding 1-Wire sensors to Tracker One for custom data collection
